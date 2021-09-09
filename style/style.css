@@ -1,0 +1,21 @@
+table{
+    border-collapse: collapse;
+}
+.td{
+    border: 1px soli red;
+    background-color: blue;
+}
+td{
+
+}
+.centro{
+    text-align: center;
+}
+.peole{
+
+}
+.navitem{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
