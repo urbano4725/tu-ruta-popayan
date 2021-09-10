@@ -1,21 +1,36 @@
-table{
-    border-collapse: collapse;
+*{
+    margin: 0;
+    padding: 0;
+    border: 2px;
+    
 }
-.td{
-    border: 1px soli red;
-    background-color: blue;
+:root{
+    --colorPri: #760597;
+    --colorSec: #84cdd3;
+    --colorTer: #FFD701;
+    --colorTex1: #707070;
+    --colorText2: #FFD701;
 }
-td{
 
+header{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #760597;
+    color: var(--colorText2);
+    width: 95%;
+    box-sizing: border-box;
+    font-size: 30px;
 }
-.centro{
-    text-align: center;
-}
-.peole{
 
+body{
+    background-color: var(--colorSec);
 }
-.navitem{
-    list-style: none;
-    text-decoration: none;
-    text-align: center;
+#carrusel {
+    align-content: center;
+    
 }
+
+
+
+
