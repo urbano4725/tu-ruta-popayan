@@ -20,17 +20,86 @@ header{
     color: var(--colorText2);
     width: 95%;
     box-sizing: border-box;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 body{
     background-color: var(--colorSec);
 }
-#carrusel {
-    align-content: center;
+#carrusel{
+    margin: 10px;
+}
+.headSect{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #760597;
+    color: var(--colorText2);
+    width: 95%;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 5px var(--colorTex1);
+}
+.formCss{
+    margin: 10px;
+    padding: 5px;
+    border-color: #760597;
+    border: 4px;
+    border-style: solid;
+    border-radius: 5px;
+    
+    background-color: #84cdd8;
+    color: var(--colorPri);
+    width: 95%;
+    box-sizing: border-box;
+    font-size: 20px;
     
 }
+.AppCss{
+    align-content: center;    
+}
+.formParra{
+    text-align: justify;
 
-
-
+}
+.td {
+    border: 1px soli var(--colorTer);
+    background-color: var(--colorTer)
+  }
+ td {
+    border: 1px double var(--colorPri);
+    background-color: grey;
+  }
+ .centro {
+    text-align: center;
+    align-content: center;
+  }
+.formUl{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}  
+.ajusteCont {
+    background-color: var(--colorSec);
+    width: 100%;
+    align-content: center;
+  
+    display: flex;
+  }
+.ajusteCont_1 {
+    border: 3px solid var(--colorPri);
+    width: 30%;
+  }
+.ajusteCont_2 {
+    border: 3px solid var(--colorPri);
+    width: 30%;
+  }
+.ajusteCont_3 {
+    border: 3px solid var(--colorPri);
+    width: 30%;
+  }
+.menuFlot{
+    margin-left: 5px;    
+}
 
