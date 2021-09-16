@@ -1,105 +1,227 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 2px;
+/*-----------------------
+  querie para celular*/
+@media screen and (max-width: 480px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        border: 2px;
+        
+    }
+    :root{
+        --colorPri: #760597;
+        --colorSec: #84cdd3;
+        --colorTer: #FFD701;
+        --colorTex1: #707070;
+        --colorText2: #FFD701;
+    }
+
+    header{
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: var(--colorPri);
+        color: var(--colorText2);
+        width: 95%;
+        box-sizing: border-box;
+        font-size: 40px;
+    }
+
+    body{
+        background-color: var(--colorSec);
+    }
+    #carrusel{
+        margin: 10px;
+    }
+    .headSect{
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: var(--colorPri);
+        color: var(--colorText2);
+        width: 95%;
+        box-sizing: border-box;
+        font-size: 25px;
+        text-align: center;
+        box-shadow: 10px 10px 10px 5px var(--colorTex1);
+    }
+    .formCss{
+        margin: 10px;
+        padding: 5px;
+        border-color:var(--colorPri);
+        border: 4px;
+        border-style: solid;
+        border-radius: 5px;
+        
+        background-color:var(--colorSec);
+        color: var(--colorPri);
+        width: 95%;
+        box-sizing: border-box;
+        font-size: 20px;
+        
+    }
+    .AppCss{
+        align-content: center;    
+    }
+    .formParra{
+        text-align: justify;
+
+    }
+    .td {
+        border: 1px soli var(--colorTer);
+        background-color: var(--colorTer)
+    }
+    td {
+        border: 1px double var(--colorPri);
+        background-color:var(--colorTex1);
+    }
+    .centro {
+        text-align: center;
+        align-content: center;
+    }
+    .formUl{
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+    }  
+    .ajusteCont {
+        background-color: var(--colorSec);
+        width: 100%;
+        align-content: center;
     
-}
-:root{
-    --colorPri: #760597;
-    --colorSec: #84cdd3;
-    --colorTer: #FFD701;
-    --colorTex1: #707070;
-    --colorText2: #FFD701;
-}
+        display: flex;
+    }
+    .ajusteCont_1 {
+        border: 3px solid var(--colorPri);
+        width: 30%;
+    }
+    .ajusteCont_2 {
+        border: 3px solid var(--colorPri);
+        width: 30%;
+    }
+    .ajusteCont_3 {
+        border: 3px solid var(--colorPri);
+        width: 30%;
+    }
+    .menuFlot{
+        margin-left: 5px;    
+    }
 
-header{
-    margin: 10px;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #760597;
-    color: var(--colorText2);
-    width: 95%;
-    box-sizing: border-box;
-    font-size: 40px;
 }
+/*-----------------------
+  querie para tablet*/
+  @media screen and (min-width: 481px) and (max-width:768px) {
 
-body{
-    background-color: var(--colorSec);
-}
-#carrusel{
-    margin: 10px;
-}
-.headSect{
-    margin: 10px;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #760597;
-    color: var(--colorText2);
-    width: 95%;
-    box-sizing: border-box;
-    font-size: 25px;
-    text-align: center;
-    box-shadow: 10px 10px 10px 5px var(--colorTex1);
-}
-.formCss{
-    margin: 10px;
-    padding: 5px;
-    border-color: #760597;
-    border: 4px;
-    border-style: solid;
-    border-radius: 5px;
+    *{
+        margin: 0;
+        padding: 0;
+        border: 2px;
+        
+    }
+    :root{
+        --colorPri: #760597;
+        --colorSec: #84cdd3;
+        --colorTer: #FFD701;
+        --colorTex1: #707070;
+        --colorText2: #FFD701;
+    }
+
+    header{
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: var(--colorPri);
+        color: var(--colorText2);
+        width: 95%;
+        box-sizing: border-box;
+        font-size: 50px;
+    }
+
+    body{
+        background-color: var(--colorSec);
+    }
+    #carrusel{
+        margin: 10px;
+    }
+    .headSect{
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: var(--colorPri);
+        color: var(--colorText2);
+        width: 95%;
+        box-sizing: border-box;
+        font-size: 25px;
+        text-align: center;
+        box-shadow: 10px 10px 10px 5px var(--colorTex1);
+    }
+    .formCss{
+        margin: 10px;
+        padding: 5px;
+        border-color:var(--colorPri);
+        border: 4px;
+        border-style: solid;
+        border-radius: 5px;
+        
+        background-color:var(--colorSec);
+        color: var(--colorPri);
+        width: 95%;
+        box-sizing: border-box;
+        font-size: 20px;
+        
+    }
+    .AppCss{
+        align-content: center;    
+    }
+    .formParra{
+        text-align: justify;
+
+    }
+    .td {
+        border: 1px soli var(--colorTer);
+        background-color: var(--colorTer)
+    }
+    td {
+        border: 1px double var(--colorPri);
+        background-color:var(--colorTex1);
+    }
+    .centro {
+        text-align: center;
+        align-content: center;
+    }
+    .formUl{
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+    }  
+    .ajusteCont {
+        background-color: var(--colorSec);
+        width: 100%;
+        align-content: center;
     
-    background-color: #84cdd8;
-    color: var(--colorPri);
-    width: 95%;
-    box-sizing: border-box;
-    font-size: 20px;
-    
-}
-.AppCss{
-    align-content: center;    
-}
-.formParra{
-    text-align: justify;
+        display: flex;
+    }
+    .ajusteCont_1 {
+        border: 3px solid var(--colorPri);
+        width: 30%;
+    }
+    .ajusteCont_2 {
+        border: 3px solid var(--colorPri);
+        width: 30%;
+    }
+    .ajusteCont_3 {
+        border: 3px solid var(--colorPri);
+        width: 30%;
+    }
+    .menuFlot{
+        margin-left: 5px;    
+    }
 
 }
-.td {
-    border: 1px soli var(--colorTer);
-    background-color: var(--colorTer)
-  }
- td {
-    border: 1px double var(--colorPri);
-    background-color: grey;
-  }
- .centro {
-    text-align: center;
-    align-content: center;
-  }
-.formUl{
-    list-style: none;
-    text-decoration: none;
-    text-align: center;
-}  
-.ajusteCont {
-    background-color: var(--colorSec);
-    width: 100%;
-    align-content: center;
-  
-    display: flex;
-  }
-.ajusteCont_1 {
-    border: 3px solid var(--colorPri);
-    width: 30%;
-  }
-.ajusteCont_2 {
-    border: 3px solid var(--colorPri);
-    width: 30%;
-  }
-.ajusteCont_3 {
-    border: 3px solid var(--colorPri);
-    width: 30%;
-  }
-.menuFlot{
-    margin-left: 5px;    
-}
 
+/*-----------------------
+  querie para Portatil y PC*/
+
+  @media screen and (min-width: 769px) and (max-width:1279px){
+
+  }
