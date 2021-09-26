@@ -549,9 +549,320 @@ body{
 /*-----------------------
   querie para Portatil y PC*/
 
-  @media screen and (min-width: 769px) and (max-width:2500px){
-    body{
-        background-color:yellow;
+  @media screen and (min-width: 769px) and (max-width:2300px){
+    .superHeader{
+        display:flex;
+        width:100%;
+        flex-wrap: wrap; 
+        
     }
-  
-  }
+    .header{
+        display: flex;
+        margin: 5px;
+        padding: 3px;
+        border: 1px solid;
+        /* border-radius: 5px; */
+        background-color: var(--colorPri);
+        color: var(--colorText2);
+        width: 150%;
+        
+        font-size: 100%; 
+        
+        /* box-shadow: 2px 2px 2px 1px var(--colorTex1); */
+        /* flex-wrap: wrap;  */
+        justify-content: center;
+        align-items: center;
+         
+    }
+    .logo{
+        width: 6%;
+        /* text-align: left; */
+        
+        
+    }
+    .nombre{
+        text-align: center;
+        /* align-content: center; */
+        width: 95%;
+        
+        
+    }
+    .noCelular{
+        
+        /*  display:flex; */
+        width: 100%;
+        text-align: center; */
+        
+    }
+    .nav_menu{
+        display: flex; 
+        width: 100%;
+        align-items: center;
+    }
+    .nav_list{
+         display: flex; 
+         width:100%;
+         flex-wrap: wrap;
+         text-align: center;
+         list-style: none;
+         margin-left:5px;
+         text-align: center;
+         
+    }
+    .nav_item{
+        margin-left:10px
+        
+    }
+    .item2{
+        text-decoration: none;
+        box-shadow: 2px 2px 2px 1px var(--colorTex1);
+        
+    }
+    .item2:hover{
+        background-color: var(--colorTex1);
+        
+    }
+    .superForm{
+        margin: 5px;
+        padding: 3px;
+        border: 1px solid var(--colorPri);
+
+        display:flex;
+        width:95%;
+        /* flex-wrap: wrap; */
+    }
+    .carru{
+        display:flex;
+        width:65%;
+
+        
+    }
+    .formular{
+        width:35%;
+    }
+    .superRuta{
+        display:flex;
+        width:100%;
+    }
+    .horari{
+        
+    }
+    .tbl{
+
+    }
+    .superAviso{
+        display:flex;
+        width:100%;        
+    }
+    .aviso{
+
+    }
+    .pqr{
+
+    }
+    .nolaptop{
+        display:none;
+    }
+    
+
+    .nav_hambur{
+        display:none;
+        /*text-align: right;
+         display:flex; 
+        width: 10%; */
+    }
+    .nav_hambur_3{
+        display:flex; 
+        text-align: right;
+        width: 10%; 
+    }
+    
+    .nav_hambur_2{
+        display:none;
+        width: 100%;
+        text-align: right;
+    }
+    
+    
+
+    .headSect{
+        margin: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: var(--colorPri);
+        color: var(--colorText2);
+        width: 95%;
+    
+        font-size: 116%;
+        text-align: center;
+        box-shadow: 2px 2px 2px 1px var(--colorTex1);
+    }
+
+
+    .formImage{
+        margin: 10px;
+        padding: 5px;
+        border-color:var(--colorPri);
+        border-radius: 5px;
+        background-color: var(--colorPri);
+        color: var(--colorText2);
+        width: 95%;
+    
+        font-size: 25px;
+        
+        box-shadow: 2px 2px 2px 1px var(--colorTex1);
+
+    }
+    .formCss{
+        margin: 10px;
+        padding: 5px;
+        border-color:var(--colorPri);
+        border: 4px;
+        border-style: solid;
+        border-radius: 5px;
+        
+        background-color:var(--colorSec);
+        color: var(--colorPri);
+        width: 95%;
+        font-size: 100%;
+        text-align: center;
+    
+        
+    }
+    .inputFlex{
+        /* display:flex; */
+        background-color: var(--colorSec);
+        width: 95%;
+        align-content: center; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .inputSalida{
+        /* display: flex; */
+        width: 100%;
+        height: 95%;
+    }
+    .inputLlegada{
+        /* display: flex; */
+        width: 100%;
+        height: 95%;
+    }
+    .inputBoton{
+        /* display: flex; */
+        margin-top: 5px;
+        text-align: center;
+        width:50%;
+        height: 95%;
+        color: var(--colorTer);
+        background-color: var(--colorPri);
+        border-radius: 5px;
+        
+        box-shadow: 2px 2px 2px 1px var(--colorTex1);
+        
+        
+    }
+
+    .AppCss{
+        align-content: center;    
+    }
+    .formParra{
+        text-align: justify;
+
+    }
+    .table{
+        width: 100px;
+        margin: 0 auto;
+    }
+    .td {
+        border: 1px soli var(--colorTer);
+        background-color: var(--colorTer);
+        font-size: 1em;
+    }
+    td {
+        border: 1px double var(--colorPri);
+        background-color:var(--colorTex1);
+        text-align: center;
+    }
+    .td_rt {
+        border: 1px soli var(--colorSec);
+        background-color: var(--colorTer);
+        font-size: 1em;
+        
+    }
+    .h4{
+        margin: 15px;
+        text-align: left;
+        color: var(--colorPri);
+        
+
+    }
+
+    .centro {
+        text-align: center;
+        align-content: center;
+    }
+    .formUl{
+        list-style: none;
+        text-align: center;
+    }  
+    .item{
+        text-decoration: none;
+        cursor: pointer;
+        
+    }
+    .item:hover{
+        color: var(--colorTex1)
+    }
+    .ajusteCont {
+        display: flex;
+        background-color: var(--colorSec);
+        width: 95%;
+        align-content: center; 
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        list-style: none;
+        
+    
+       
+    }
+    .ajusteCont_1 {
+        
+        width: 30%;
+        height: 95%;
+        
+        
+    }
+    .ajusteCont_2 {
+        
+        width: 30%;
+        height: 95%;
+    }
+
+    .ajusteCont_3 {
+        
+        width: 30%;
+        height: 95%;
+    }
+    .img{
+        width: 6.5em;
+        height: 6.5em;
+        object-fit:cover;
+    }
+    .menuFlot{
+        text-decoration: none; 
+        list-style: none;
+        text-align: center;
+        margin-left: 5px;
+           
+    }
+    .menuFlot:hover{
+        color: var(--colorTex1);
+    }
+    .noTablet{
+        display: none;
+        
+    }
+    
+}
