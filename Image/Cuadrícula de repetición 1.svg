@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51.008" height="36" viewBox="0 0 51.008 36">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="51.008" height="36" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Cuadrícula_de_repetición_1" data-name="Cuadrícula de repetición 1" clip-path="url(#clip-path)">
+    <g transform="translate(-144.496 -255)">
+      <line id="Línea_1" data-name="Línea 1" y1="1" x2="131" transform="translate(144.5 255.5)" fill="none" stroke="#d3e90b" stroke-width="1"/>
+    </g>
+    <g transform="translate(-144.496 -240)">
+      <line id="Línea_1-2" data-name="Línea 1" y1="1" x2="131" transform="translate(144.5 255.5)" fill="none" stroke="#d3e90b" stroke-width="1"/>
+    </g>
+    <g transform="translate(-144.496 -225)">
+      <line id="Línea_1-3" data-name="Línea 1" y1="1" x2="131" transform="translate(144.5 255.5)" fill="none" stroke="#d3e90b" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

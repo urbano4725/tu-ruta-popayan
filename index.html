@@ -11,170 +11,206 @@
     <title>Tu Ruta Popayan</title>
 </head>
 <body>
-    <header >
-        <div id="inicio">
-            <img src="/Image/torre - copia.png" alt="" sizes="" srcset=""> <span> Tu Ruta Popayán</span>
-        </div> 
-               
+    <section class="superHeader">
+        <header class="header" id="inicio">
+            <img class="logo" src="/Image/torre - copia.jpg" alt="Logo">
+            <h1 class="nombre">Tu Ruta Popayán</h1>
+            <a class="nav_hambur" href="#menu"><img class="nav_hambur_2" src="/Image/Cuadrícula de repetición 1.svg" alt="Hambur" title="menu"> </a> 
+            
+            
+        </header>
+        <section class="noCelular"> 
+            <nav class="nav_menu" id="menu2">
+                <ul class="nav_list">
+                    <li class="nav_item"><a class="item2" href="#inicio">Inicio</a></li>
+                    <li class="nav_item"><a class="item2" href="#turuta">Ubicacion</a></li>
+                    <li class="nav_item"><a class="item2" href="#Rutas">rutas</a></li>
+                    <li class="nav_item"><a class="item2" href="#disponible">disponibles</a></li>
+                    <li class="nav_item"><a class="item2" href="#aviso">Avisos...</a></li>
+                    <li class="nav_item"><a class="item2" href="#pqr">PQRS</a></li>
+                    <li class="nav_item"><a class="item2" href="#conoce">Conoce Popayán </a></li>
+                    <li class="nav_item"><a class="item2" href="#turista">Sitios turísticos </a></li>
+                    <li class="nav_item"><a class="item2" href="#tipico">Personajes</a></li>
+                    
+                </ul>
+            </nav>
+    |   </section>
+    </section>
+    
+    <hr>
+    <hr>
+    <section class="superForm">
+        <section class="carru" id="carrusel">
+            <fieldset >
+                <img src="/image/picoypaca3.jpg"  class="formImage">
+            </fieldset>
+        </section>
         <hr>
+        <hr>
+        <section class="formular">
+            <section class="headSect">
+                <h3 id="turuta">Tu ruta</h3>
+            </section> 
+                <div class="">
+
+                    <fieldset class="formCss">
+                        <form class= "inputFlex" action="#">
+                            <div class="inputSalida">
+                                <input class="inputSalida" classtype="search" id="gsearch1" name="gsearch1" placeholder="Digite su ubicacion">
+                            </div>
+                            <hr>&</hr>
+                            
+                            <input class="inputLlegada" type="search" id="gsearch1" name="gsearch1" placeholder="Digite su destino">
+                            <input class="inputFecha" id="fecha" type="date" name "fecha" value="01-01-2021">
+                            <input class="inputHora"  id="hora" type="time">
+
+                            <input class="inputBoton " type="button" value="Buscar Ruta">
+                        </form>
+                    </fieldset>
+                </div>
+        </section>
+    </section>
+    
+    <section> 
         
-    </header>
-    <section id="carrusel"> 
-        <fieldset >
-             <div ><img src="/image/picoypaca3.jpg" width=100% ></div>
-        </fieldset>
     </section>
     <hr>
-   <hr>
-
-    <form action="">
-        <section class="headSect">
-            <h3 id="turuta">Tu ruta</h3>
-        </section> 
-        
-       <fieldset class="formCss">
-        
-            <section >
-                <label>Digite su ubicacion
-                <input id="ubicacion" type="google" placeholder="presione para su ubicacion" >
-                </label>
-            </section>
-            <div>
-                <label>Digite su destino    </label>
-                <input id="destino" type="google placeholder" placeholder="Presione para ver destino">
-            </div>
-            <div>
-                <label for="fecha">Fecha</label>
-                <input id="fecha" type="date" name "fecha">
-                <label for="file">Hora</label>
-                <input id="hora" type="time">
-            </div>
-        </fieldset>
-    </form>
     <hr>
     <section>  
-        <img src="/Image/popayan larga.png" align: center>
+        <img src="/Image/Grupo 20.png" class="formImage">
     </section>
     <hr>
-    <section class="headSect">
-        <h3 id="Rutas">Rutas y horarios</h3>
-    </section>    
-    <section> 
-        <article class="formCss" >
-            <p class="formParra">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Nostrum assumenda repudiandae animi dolores optio. Sint, 
-                magnam quibusdam. Doloribus a fugiat reiciendis labore debitis, 
-                nulla reprehenderit, expedita asperiores cumque, neque necessitatibus.
-            </p>
-        </article>
+    <hr>
+    <section class="superRuta">
+        <section class="horari">
+            <section class="headSect">
+                <h3 id="Rutas">Rutas y horarios</h3>
+            </section>    
+            <hr>
+            <hr>
+            <section> 
+                <article class="formCss" >
+                    <p class="formParra">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Nostrum assumenda repudiandae animi dolores optio. Sint, 
+                        magnam quibusdam. Doloribus a fugiat reiciendis labore debitis, 
+                        nulla reprehenderit, expedita asperiores cumque, neque necessitatibus.
+                    </p>
+                </article>
+            </section>
+        </section>
+        <hr>
+        <section class="tbl">
+            <section class="formCss">
+                <table class="table">
+                    <caption>Horarios</caption>
+                    <thead>
+                        <tr>
+                            <td class="td">Ruta</td>
+                            <td class="td">Tambo</td>
+                            <td class="td">SotraCauca</td>
+                            <td class="td">Liberta</td>
+                            <td class="td">Pubenza</td>
+                        </tr>    
+                    </thead>
+                    <tbody >
+                        <tr>
+                            <td class="td">1</td>
+                            <td>Disp</td>
+                            <td>Falla</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="td">2</td>
+                            <td >Disp</td>
+                            <td >Disp</td>
+                            <td >Disp</td>
+                            <td class="td_rt">Falla</td>
+                        </tr>
+                        <tr>
+                            <td class="td">3</td>
+                            <td class="td_rt">Falla</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="td">4</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            <td class="td_rt">Falla</td>
+                        </tr>
+
+                        <tr>
+                            <td class="td">5</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                        </tr>
+                        <tr>
+                            <td class="td">6</td>
+                            <td>Disp</td>
+                            <td class="td_rt">Falla</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="td">7</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            <td class="td_rt">Falla</td>
+                        </tr>
+                        <tr>
+                            <td class="td">8</td>
+                            <td class="td_rt">Falla</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="td">9</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            <td class="td_rt">Falla</td>
+                        </tr>
+
+                        <tr>
+                            <td class="td">10</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                            <td>Disp</td>
+                        </tr>
+                        <tr>
+                            <td class="td">11</td>
+                            <td class="td_rt">falla</td>
+                            <td class="td_rt">falla</td>
+                            <td class="td_rt">falla</td>
+                            <td class="td_rt">falla</td>
+                        </tr>
+            
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5" class="centro">Rutas sujetas a verificacion</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+            </section>
+        </section>
     </section>
-    <section class="formCss">
-        <table class="centro">
-            <caption>Horarios</caption>
-            <thead>
-                 <tr>
-                     <td class="td">Ruta</td>
-                     <td class="td">Tambo</td>
-                     <td class="td">SotraCauca</td>
-                     <td class="td">Liberta</td>
-                     <td class="td">Pubenza</td>
-                 </tr>    
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Disp</td>
-                    <td>Falla</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    <td>Falla</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Falla</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    <td>Falla</td>
-                </tr>
-
-                <tr>
-                    <td>5</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Disp</td>
-                    <td>Falla</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    <td>Falla</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Falla</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    <td>Falla</td>
-                </tr>
-
-                <tr>
-                    <td>10</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                    <td>Disp</td>
-                </tr>
-                <tr>
-                    <td>11</td>
-                    <td>falla</td>
-                    <td>falla</td>
-                    <td>falla</td>
-                    <td>falla</td>
-                </tr>
-     
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="5" class="centro">Rutas sujetas a verificacion</td>
-                </tr>
-            </tfoot>
-        </table>
-
-    </section>
+    <hr>
+    
     <section  class="headSect"> 
             <h3 id="disponible">Rutas disponibles...</h3>
             
@@ -185,32 +221,40 @@
             <img class="centro" src="/Image/rutasdisponibles.png" alt="" sizes="" srcset="" >
         
     </section>
-    <section class="headSect"> 
-        <h3 id="aviso">Avisos importantes</h3>
+    <hr>
+    <section class="superAviso">
+        <section class="aviso">
+            <section class="headSect"> 
+                <h3 id="aviso">Avisos importantes</h3>
+            </section>
+            <hr>
+            <section class="formCss"> 
+                <article>
+                    <p class="formParra">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi 
+                        veritatis necessitatibus omnis consectetur quos voluptates quis 
+                        pariatur quaerat iusto praesentium dolor, culpa aspernatur, commodi 
+                        officiis! Maxime velit voluptatum dolores obcaecati!
+                    </p>
+                </article>
+            </section>
+        </section>
+        <section class="pqr">
+            <section class="headSect"> 
+                <h3 id="pqr">P Q R S</h3>
+            </section>
+            <section class="formCss"> 
+                <article>
+                    <p class="formParra">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi 
+                        veritatis necessitatibus omnis consectetur quos voluptates quis 
+                        pariatur quaerat iusto praesentium dolor, culpa aspernatur, commodi 
+                        officiis! Maxime velit voluptatum dolores obcaecati!
+                    </p>
+                </article>
+            </section>  
+        </section>
     </section>
-    <section class="formCss"> 
-        <article>
-            <p class="formParra">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi 
-                veritatis necessitatibus omnis consectetur quos voluptates quis 
-                pariatur quaerat iusto praesentium dolor, culpa aspernatur, commodi 
-                officiis! Maxime velit voluptatum dolores obcaecati!
-            </p>
-        </article>
-    </section>
-    <section class="headSect"> 
-        <h3 id="pqr">P Q R S</h3>
-    </section>
-    <section class="formCss"> 
-        <article>
-            <p class="formParra">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi 
-                veritatis necessitatibus omnis consectetur quos voluptates quis 
-                pariatur quaerat iusto praesentium dolor, culpa aspernatur, commodi 
-                officiis! Maxime velit voluptatum dolores obcaecati!
-            </p>
-        </article>
-    </section >  
         
     <section class="headSect">
         <h3 id="conoce">Conoce a Popayan...</h3>
@@ -227,15 +271,14 @@
            <h3 id="turista">Sitios turísticos</h3>
     </section>   
         
-    <section class="formCss">        
+    <section class="formCss">
         <aside >
-            <nav class="formUl">
+            <nav >
                 
-                <ul>
-                    <li><a href="https://www.google.com/search?q=el+morro+sin+sebastian+de+belalcazar&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwil9tGn3aXyAhX6RDABHcARAaUQ_AUoAXoECAEQAw&biw=1024&bih=683#imgrc=hb16ycbHdWdN1M">El morro - Sin sebastian...</a></li>
-                    <li><a href="https://www.google.com/search?q=Catedral+de+Popay%C3%A1n&client=firefox-b-d&stick=H4sIAAAAAAAAAONQFuLWT9c3NDKoKjMxK1BC5pxixMYzKkzPNs47xcgL4hkmGxZblBdmpEFlS5LL4tPTq2Cy6QYpueXlhoanGHlA_Iw0Y-O0SsM8mFHGllk5WfGnGLn0c_UNjJPLy8rjfzGGBqXmJJakpiiU5Cs4gxhFiTkKfqWpxSVFiQrBqYc35gPplFQFn0QFx-LSvOTMw5vzFBLzUhQCMosOL8zNBEq55ij45hcV5SvoKgTkFyRWHl6Yt4sF2S-7WJCsXMQqArcHqBmmYwIb4y02SQatqVVcLybNvtV7RLBltVHqzgXnLjGs1pCLBQAZ2zS7OQEAAA&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiCltLpzqXyAhXuSTABHazJBKUQ_AUoAnoECAEQBA&biw=1024&bih=683">Catedral | Iglesia tradicional</a></li>
-                    <li><a href="https://www.google.com/search?q=puente+el+humilladero+popayan&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiLiIyBz6XyAhXrSzABHZ-GB6IQ_AUoAXoECAEQAw&biw=1024&bih=683">Pueste el humilladero</a></li>
-                    <!--  <li><a href="https://www.youtube.com/watch?v=JsYchO8Tfzc">Blanca Ligia</a>...</li> -->
+                <ul class="formUl">
+                    <li ><a class="item" href="nav_sitios.html">El morro - Sin sebastian...</a></li>
+                    <li ><a class="item" href="nav_sitios.html#catedral">Catedral | Iglesia tradicional</a></li>
+                    <li ><a class="item" href="nav_sitios.html#puente">Pueste el humilladero</a></li>
                 </ul>
             </nav>
         </aside>
@@ -245,18 +288,14 @@
         <h3 id="tipico">Personajes tipicos</h3>
     </section>   
      
-    <section >        
-        <aside >
-            <nav class="formCss">
-                <ul class="ajusteCont">
-                    <li class="ajusteCont_1"><a href="https://www.las2orillas.co/dona-aliria-una-famosa-vendedora-de-mecato/"><img src="/image/tipoco 3.jpg" width=150 height="150"> </a></li>
-                    <li class="ajusteCont_2"><a href="https://www.juntasemanasantapopayan.org/single-post/2019/11/08/sobre-la-%C3%B1apanga-payanesa"> <img src="/image/tipico 2.jpg" width=150 height="150"> </a></li>
-                    <li class="ajusteCont_3" ><a href="https://www.youtube.com/watch?v=JsYchO8Tfzc"><img src="/image/tipico 3.jpg" width=150 height="150"> </a></li>
-                    
-                </ul>
-            </nav>
-        </aside>
-        
+    <section class="formCss">        
+        <nav class="formUl">
+            <ul class="ajusteCont">
+                <li class="ajusteCont_1"><a  href="nav_personajes.html"><img class="img" src="/image/tipoco 3.jpg" title="Doña aliria" > </a></li> 
+                <li class="ajusteCont_2"><a  href="nav_personajes.html#napanga"> <img class="img" src="/image/tipico 2.jpg" title="Vestido de ñapanga"> </a></li> 
+                <li class="ajusteCont_3"><a  href="nav_personajes.html#blanca"><img class="img" src="/image/tipico 3.jpg" title="Blanca ligia"> </a></li>
+            </ul>
+        </nav>
     </section>
  
     <section class="headSect"> 
@@ -267,32 +306,33 @@
         <aside >
             <nav class="formCss">
                 <ul class="ajusteCont">
-                    <li><a href="https://www.google.com/search?q=mapa+de+bancos+cerca+de+ti&rlz=1C1EJFC_enCO940CO940&oq=mapa+de+bancos+cerca+de+ti&aqs=chrome..69i57j33i160l2.8922j0j4&sourceid=chrome&ie=UTF-8"><img src="/image/simbolo banco.png"></a> </li>
-                    <li><a href="https://www.google.com/search?q=cines+cerca+de+aqui&rlz=1C1EJFC_enCO940CO940&oq=cines+cerca+de+aqui&aqs=chrome..69i57j0i512j0i22i30.8027j0j9&sourceid=chrome&ie=UTF-8"><img src="/image/cine.png"> </a></li>
-                    <li><a href="https://www.google.com/search?q=comidas+rapidas+popayan&rlz=1C1EJFC_enCO940CO940&oq=comidas+rapid&aqs=chrome.0.0i512j46i433i512j46i175i199i512j69i57j46i175i199i512j0i512j0i457i512j0i402j46i175i199i512j0i512.3858j0j9&sourceid=chrome&ie=UTF-8"><img src="/image/comida rapida amburguesa.png"> </a></li>    
-                    <li><a href="https://www.google.com/search?q=supermercados+cerca+de+m%C3%AD&rlz=1C1EJFC_enCO940CO940&oq=supermercados+cerca+de+&aqs=chrome.2.69i57j0i457i512j0i512l8.9618j0j9&sourceid=chrome&ie=UTF-8"><img src="/image/comercio.png"> </a></li>    
+                    <li><a href="https://www.google.com/search?q=mapa+de+bancos+cerca+de+ti&rlz=1C1EJFC_enCO940CO940&oq=mapa+de+bancos+cerca+de+ti&aqs=chrome..69i57j33i160l2.8922j0j4&sourceid=chrome&ie=UTF-8"><img src="/image/simbolo banco.png" title="Bancos"></a> </li>
+                    <li><a href="https://www.google.com/search?q=cines+cerca+de+aqui&rlz=1C1EJFC_enCO940CO940&oq=cines+cerca+de+aqui&aqs=chrome..69i57j0i512j0i22i30.8027j0j9&sourceid=chrome&ie=UTF-8"><img src="/image/cine.png" title="Cines"> </a></li>
+                    <li><a href="https://www.google.com/search?q=comidas+rapidas+popayan&rlz=1C1EJFC_enCO940CO940&oq=comidas+rapid&aqs=chrome.0.0i512j46i433i512j46i175i199i512j69i57j46i175i199i512j0i512j0i457i512j0i402j46i175i199i512j0i512.3858j0j9&sourceid=chrome&ie=UTF-8"><img src="/image/comida rapida amburguesa.png" title="Comidas rapidas"> </a></li>    
+                    <li><a href="https://www.google.com/search?q=supermercados+cerca+de+m%C3%AD&rlz=1C1EJFC_enCO940CO940&oq=supermercados+cerca+de+&aqs=chrome.2.69i57j0i457i512j0i512l8.9618j0j9&sourceid=chrome&ie=UTF-8"><img src="/image/comercio.png" title="Supermercados"> </a></li>    
                 </ul>
             </nav>
         </aside>
     
     </section>
 
-    <nav>
-        <ul>
-            <li class="menuFlot"><a class="menuFlot" href="#inicio">Inicio</a></li>
-            <li class="menuFlot"><a class="menuFlot" href="#turuta">Solicitar ubicacion</a></li>
-            <li class="menuFlot"><a class="menuFlot" href="#Rutas">rutas y horarios</a></li>
-            <li class="menuFlot"><a class="menuFlot" href="#disponible">rutas disponibles</a></li>
-            <li class="menuFlot"><a class="menuFlot" href="#aviso">Avisos importantes</a></li>
-            <li class="menuFlot"><a class="menuFlot" href="#pqr">PQRS</a></li>
-            <li class="menuFlot"><a class="menuFlot" href="#conoce">Conoce Popayán </a></li>
-            <li class="menuFlot"><a class="menuFlot" href="#turista">Sitios turísticos </a></li>
-            <li class="menuFlot"><a class="menuFlot" href="#tipico">Personajes típicos </a></li>
-            
-        </ul>
-    </nav>
+    <section class="noTablet">
+        <nav  id="menu">
+            <ul>
+                <li class="menuFlot"><a class="menuFlot" href="#inicio">Inicio</a></li>
+                <li class="menuFlot"><a class="menuFlot" href="#turuta"> Ubicacion</a></li>
+                <li class="menuFlot"><a class="menuFlot" href="#Rutas">rutas</a></li>
+                <li class="menuFlot"><a class="menuFlot" href="#disponible">disponibles</a></li>
+                <li class="menuFlot"><a class="menuFlot" href="#aviso">Avisos...</a></li>
+                <li class="menuFlot"><a class="menuFlot" href="#pqr">PQRS</a></li>
+                <li class="menuFlot"><a class="menuFlot" href="#conoce">Conoce Popayán </a></li>
+                <li class="menuFlot"><a class="menuFlot" href="#turista">Sitios...</a></li>
+                <li class="menuFlot"><a class="menuFlot" href="#tipico">Personajes...</a></li>
+            </ul>
+        </nav>
+    </section>
 </body>
-<br>-----------------------------------------------</html><br>
+<br>-----------------------------------------------<br>
 <footer>
     <section>
         <nav>
@@ -306,7 +346,7 @@
                     
         </nav>
         <address>    
-               Eduard Fabian Urbano Leon<br>
+               Eduard Fabian Urbano Leon
                efurbano@misena.edu.co
         </address>
         <hr>
